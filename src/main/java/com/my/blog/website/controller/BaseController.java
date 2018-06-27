@@ -50,5 +50,8 @@ public abstract class BaseController {
     public String render_404() {
         return "comm/error_404";
     }
+    public String render_500() {
+        return "comm/error_500";
+    }
 
 }
